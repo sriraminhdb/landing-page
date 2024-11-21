@@ -1,0 +1,71 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.darkBackground {
+   background-color: #1f2937;
+   padding: 50pt 150pt;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 100pt 0;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+    margin: 0 5px;
+}
+
+.webAwesome {
+    display: flex;
+    gap: 10pt;
+}
+
+.awesomeText {
+    line-height: 1.5;
+}
+
+.awesomeText h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.awesomeText p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.webAwesome button {
+    padding: 10px 50px;
+    margin: 25px 0;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
+    font-size: 16px;
+}
+
+.placeHolderContainer {
+    width: 1000px;
+    height: 300px;
+    background-color: grey;
+}
+
+.placeHolderContainer p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 130px;
+}
