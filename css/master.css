@@ -29,7 +29,7 @@
 
 .webAwesome {
     display: flex;
-    gap: 10pt;
+    gap: 50pt;
 }
 
 .awesomeText {
@@ -68,4 +68,43 @@
     color: white;
     font-size: 18px;
     padding: 130px;
+}
+
+.randomInfo {
+    padding: 50pt 0;
+    margin: 50px 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50pt;
+}
+
+.randomInfo h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.boxDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 60pt;
+}
+
+.boxDiv p {
+    text-wrap: wrap;
+    text-align: center;
+    margin: 10px 0 0 -30px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 10px solid #3882f6;
+    border-radius: 5px;
+    padding: 50px;
 }
