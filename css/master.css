@@ -126,3 +126,26 @@
 .quoteBy {
     text-align: end;
 }
+
+.bannerSection {
+    padding: 50pt 150pt;
+}
+
+.banner {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 30px 100px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner button {
+    border-radius: 10px;
+    padding: 0 20px;
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
+    font-size: 16px;
+    border: 1px solid #f9faf8;
+}
